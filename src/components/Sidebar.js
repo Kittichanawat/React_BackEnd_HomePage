@@ -90,12 +90,12 @@ function Sidebar() {
           </Link>
         </li>
         <li className="nav-item">
-          <a href="pages/gallery.html" className="nav-link">
-            <i className="nav-icon far fa-image" />
+          <Link to="/billSale" className="nav-link">
+            <i className="nav-icon far fa-credit-card" />
             <p>
-              Gallery
+              รายงานยอดขาย
             </p>
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
           <a href="pages/kanban.html" className="nav-link">
