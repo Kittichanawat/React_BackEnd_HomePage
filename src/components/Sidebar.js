@@ -58,7 +58,7 @@ function Sidebar() {
      <aside className="main-sidebar sidebar-dark-primary elevation-4">
   <Link to="/home" className="brand-link">
     <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{opacity: '.8'}} />
-    <span className="brand-text font-weight-light">AdminLTE 3</span>
+    <span className="brand-text font-weight-light">BackOffice</span>
   </Link>
   <div className="sidebar">
     <div className="user-panel mt-3 pb-3 mb-3 d-flex">
@@ -81,6 +81,14 @@ function Sidebar() {
       
         <li className="nav-header">MenuS</li>
         <li className="nav-item">
+          <Link to ="/dashboard" className="nav-link">
+            <i className="nav-icon fas fa-columns" />
+            <p>
+              DashBoard
+            </p>
+          </Link>
+        </li>
+        <li className="nav-item">
           <Link to="/product" className="nav-link">
             <i className="nav-icon fa fa-box" />
             <p>
@@ -97,14 +105,7 @@ function Sidebar() {
             </p>
           </Link>
         </li>
-        <li className="nav-item">
-          <a href="pages/kanban.html" className="nav-link">
-            <i className="nav-icon fas fa-columns" />
-            <p>
-              Kanban Board
-            </p>
-          </a>
-        </li>
+
     
      
          

@@ -4,8 +4,8 @@ import './index.css';
 import SignIn from './pages/backoffice/Signin';
 import Home from './pages/backoffice/Home';
 import Product from './pages/backoffice/Product';
-import BillSale from './pages/backoffice/billSale';
-
+import BillSale from './pages/backoffice/BillSale';
+import DashBoard from './pages/backoffice/Dashboard';
 
 
 import {
@@ -27,8 +27,12 @@ const router = createBrowserRouter([
     element: <Product />
   },
   {
-    path: '/billSale',
+    path: '/BillSale',
     element: <BillSale />
+  },
+  {
+    path: '/dashboard',
+    element: <DashBoard />
   }
 ])
 
